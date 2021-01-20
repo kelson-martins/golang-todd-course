@@ -20,6 +20,7 @@ func main() {
 
 	myMap["bond_james"] = []string{`Shaken, not stirred`, `Martinis`, `Women`}
 	myMap["no_dr"] = []string{`Being evil`, `Ice cream`, `Sunsets`}
+	myMap["moneypenny_miss"] = []string{`James Bond`, `Literature`, `Computer Science`}
 
 	for name, mapArray := range myMap {
 		fmt.Printf("Name: %v\n", name)
